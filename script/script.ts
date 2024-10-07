@@ -3,12 +3,6 @@ const costoAlMinuto: number = 0.2;
 interface Smartphone {
   credit: number;
   chiamate: number;
-
-  ricarica(ammontare: number): void;
-  minutiInChiamata(minuti: number): void;
-  creditoResiduo(): number;
-  quantitaDelleChiamate(): number;
-  azzeraChiamate(): void;
 }
 
 class User implements Smartphone {
